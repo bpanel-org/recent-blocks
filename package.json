@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "babel": "babel --presets=env,stage-3 lib -d dist",
-    "watch": "babel --presets=env,stage-3 lib -d dist --watch",
+    "watch": "babel --presets=env,stage-3 lib -d dist --watch -s",
     "clean": "rm -f ./dist/*.js",
     "lint": "eslint lib/ test/ || exit 0",
     "prepublish": "make babel",
@@ -23,8 +23,11 @@
     "babel-plugin-transform-runtime": "^6.23.0"
   },
   "devDependencies": {
+    "@bpanel/bpanel-ui": "^0.0.7",
+    "@bpanel/bpanel-utils": "^0.0.5",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-3": "^6.24.1",
+    "bcoin": "git+https://github.com/bcoin-org/bcoin.git#wallet-rewrite",
     "babel-preset-react": "^6.24.1",
     "eslint": "^4.9.0",
     "eslint-config-prettier": "^2.6.0",
@@ -34,16 +37,11 @@
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.4.0",
     "react": "^16.2.0",
-    "react-virtualized": "^9.18.5"
-  },
-  "peerDependencies": {
-    "@bpanel/bpanel-ui": "^0.0.4",
-    "@bpanel/bpanel-utils": "^0.0.5",
-    "bcoin": "git+https://github.com/bcoin-org/bcoin.git#wallet-rewrite",
     "prop-types": "^15.6.0",
-    "react": "^16.2.0",
     "reselect": "^3.0.1",
     "underscore": "^1.8.3",
-    "seamless-immutable": "^7.1.2"
-  }
+    "seamless-immutable": "^7.1.2",
+    "react-virtualized": "^9.18.5"
+  },
+  "peerDependencies": {}
 }
