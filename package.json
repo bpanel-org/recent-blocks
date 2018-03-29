@@ -11,6 +11,7 @@
     "prepublish": "make babel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "git@github.com:bpanel-org/recent-blocks.git",
   "keywords": [
     "bpanel",
     "bcoin",
