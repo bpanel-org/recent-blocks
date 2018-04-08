@@ -20,7 +20,6 @@
   "author": "bcoin-org",
   "license": "MIT",
   "dependencies": {
-    "@bpanel/bpanel-ui": "^0.0.7",
     "@bpanel/dashboard": "0.0.1",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -43,6 +42,7 @@
     "eslint-plugin-react": "^7.4.0"
   },
   "peerDependencies": {
+    "@bpanel/bpanel-ui": "^0.0.7",
     "@bpanel/bpanel-utils": "^0.0.7",
     "bcoin": "git+https://github.com/bcoin-org/bcoin.git#wallet-rewrite",
     "react": "^16.2.0"
