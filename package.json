@@ -44,7 +44,7 @@
   "peerDependencies": {
     "@bpanel/bpanel-ui": "^0.0.7",
     "@bpanel/bpanel-utils": "^0.0.7",
-    "bcoin": "git+https://github.com/bcoin-org/bcoin.git#wallet-rewrite",
+    "bcoin": "git+https://github.com/bcoin-org/bcoin.git",
     "react": "^16.2.0"
   }
 }
