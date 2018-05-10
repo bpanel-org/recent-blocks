@@ -26,7 +26,6 @@
     "prop-types": "^15.6.0",
     "react-virtualized": "^9.18.5",
     "reselect": "^3.0.1",
-    "seamless-immutable": "^7.1.2",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
