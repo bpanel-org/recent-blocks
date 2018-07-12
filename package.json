@@ -1,6 +1,6 @@
 {
   "name": "@bpanel/recent-blocks",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A widget that shows the recent block information with expandable rows, optimized for bpanel dashboard",
   "main": "dist/index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   "author": "bcoin-org",
   "license": "MIT",
   "dependencies": {
+    "@bpanel/chain-sockets": "0.0.2",
     "@bpanel/dashboard": "0.0.1",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
