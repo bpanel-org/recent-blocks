@@ -45,8 +45,9 @@
   },
   "peerDependencies": {
     "@bpanel/bpanel-ui": "^0.0.7",
-    "@bpanel/bpanel-utils": "^0.0.10",
-    "bcoin": "git+https://github.com/bcoin-org/bcoin.git",
+    "@bpanel/bpanel-utils": "^0.0.12",
+    "bcoin": "github:bcoin-org/bcoin.git",
+    "hsd": "github:handshake-org/hsd",
     "react": "^16.3.0"
   }
 }
