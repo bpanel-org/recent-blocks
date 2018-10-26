@@ -26,8 +26,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "prop-types": "^15.6.0",
     "react-virtualized": "^9.18.5",
-    "reselect": "^3.0.1",
-    "underscore": "^1.8.3"
+    "reselect": "^3.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
@@ -48,6 +47,7 @@
     "@bpanel/bpanel-utils": "^0.0.12",
     "bcoin": "github:bcoin-org/bcoin.git",
     "hsd": "github:handshake-org/hsd",
+    "lodash": "*",
     "react": "^16.3.0"
   }
 }
